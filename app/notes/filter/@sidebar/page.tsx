@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { noteTags } from '@/types/note';
 import css from './page.module.css';
 
-export default function Sidebar() {
+export default function SidebarNotes() {
   return (
     <ul className={css.menuList}>
       <li className={css.menuItem}>

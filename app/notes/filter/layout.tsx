@@ -1,4 +1,4 @@
-import css from "./layout.module.css";
+import css from './layout.module.css';
 
 export default function FilterLayout({
   children,
@@ -10,7 +10,7 @@ export default function FilterLayout({
   return (
     <div className={css.container}>
       <aside className={css.sidebar}>{sidebar}</aside>
-      <div className={css.content}>{children}</div>
+      <div className={css.notesWrapper}>{children}</div>
     </div>
   );
 }

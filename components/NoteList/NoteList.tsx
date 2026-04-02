@@ -41,3 +41,4 @@ const NoteList = ({ notes }: NoteListProps) => {
 };
 
 export default NoteList;
+
